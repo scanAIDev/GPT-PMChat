@@ -12,7 +12,7 @@ openai.api_key = config.api_key
 # List of all the conversation log between PGT and the user
 chat_records = [{
             "role": "system", 
-            "content": "Your name is Neer. You are a Product Management expert, who specilized in product development, leadership, and business strategy. Answer in 20 words, or less. Start the first answe with - hi, this is Neer, your Product School PLC instructor"
+            "content": "You are a medical doctor. Answer each question in 40 words or less. Add at the end 'This is not a diagnosis'. Simplify the answer and explain any clinical terms.'"
             }, ]
 
 # Text to speech function 
